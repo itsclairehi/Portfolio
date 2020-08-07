@@ -8,6 +8,7 @@
     --primary-color: #ace8f3 ;
     --secondary-color: #02764a;
     --tertiary-color: #39a0b2;
+    --mid-green:#4f977c;
   }
 
 body {
@@ -16,22 +17,30 @@ body {
 }
 
 .content {
-    margin: 10vmin;
+    margin: 7vmin;
 }
 
   h1, h2, h3 {
       color: var(--primary-color);
   }
 
+  h2 {
+      background-color: var(--mid-green);
+      border-radius: 15px;
+      width: 70%;
+      margin-bottom: 1em;
+  }
+
   section {
-      margin-bottom: 20px;
+      margin-bottom: 3em;
+      margin-top: 2em;
   }
 
 
   /* HEADER STYLES */
 
   header {
-      background-color: var(--tertiary-color);
+      background-color: var(--mid-green);
       display: flex;
     justify-content: space-between;
     z-index: 9999;
@@ -74,7 +83,7 @@ body {
 
 .hero {
     display: flex;
-    background-image: url(../images/placeholder\ cat.jpg);
+    background-image: url(../images/hero.jpeg);
     background-size: cover;
     height: 100px;
     justify-content: flex-end;
@@ -84,6 +93,9 @@ body {
 .hero h2 {
     align-self: flex-end;
     padding: 0px 20px;
+    width:50%;
+    margin-bottom: 5px;
+    background-color: rgba(79, 151, 124, 0.7);
 }
 /*content styles*/
 
@@ -93,19 +105,21 @@ body {
 
 /*ABOUT ME STYLES*/
 .about {
-    display: flex;
-    justify-content: space-around;
    width: 100%;
-   padding: 20px
-   
 }
 
 .about img {
     max-height: 300px;
 }
 
+.card {
+    display: flex;
+    justify-content: center;
+}
 .about p {
-    width: 25%;
+    width: 40%;
+    align-self: center;
+    margin-left: 4em;
 }
 
 #profile-pic {
@@ -113,6 +127,8 @@ body {
     border: 5px solid var(--secondary-color);
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
 }
+
+
 
 .card:hover {
     text-shadow:5px 10px 15px rgba(212, 122, 175, 0.25);
@@ -201,6 +217,7 @@ width: 75%;
 #music {
     background-image: url(../images/Claire010\ copy.JPG);
     color: var(--secondary-color);
+    background-position: center;
 
 }
 
@@ -233,13 +250,19 @@ width: 75%;
 
 .contact {
     display: flex;
-    justify-content: space-between;
     padding: 1em;
+    background-color: var(--mid-green);
+    border-radius: 15px;
+    width: fit-content;
 }
 
+.contact h2 {
+    width: fit-content;
+    margin-bottom: 0px;
+}
 .contact a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #e3f8fc;
 }
 
 .contact ul {
@@ -253,6 +276,11 @@ width: 75%;
     display: flex;
     margin: 15px 30px 0px 30px;
     font-weight: bold;
+}
+
+.contact ul li:hover {
+    font-style: oblique;
+    
 }
 
 

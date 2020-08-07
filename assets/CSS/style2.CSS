@@ -234,6 +234,11 @@ width: 75%;
     background-image: url(../images/digital-marketing-meeting\ copy.jpg);
 }
 
+#horiseon:hover, #music:hover {
+    border: 10px solid #02764a;
+    transition: 1s;
+}
+
 
 .other-work {
     display: flex;

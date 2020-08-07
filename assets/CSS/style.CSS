@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    --primary-color: #38fcd1;
+    --secondary-color: #02764a;
+    --tertiary-color: #39a0b2;
+  }
+
+  h1, h2, h3 {
+      color: var(--tertiary-color);
+  }
+  /* Header styles */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header h1 {
+    color: var(--primary-color);
+    
+}
+
+header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header nav ul li {
+      display: flex;
+  }
+
+  /*end header styles */
+
+  .section-title {
+      font-size: 50px;
+  }
+
+  /* Hero Styles */
+
+  .hero {
+      display: flex;
+      justify-content: flex-end;
+      background-image: url(../images/placeholder\ cat.jpg);
+  }
+
+  .hero h2 {
+      align-self: flex-end;
+  }
+
+  /*About Me Styles*/
+  /*About me styles end */
+
+  /*work section styles */
+  .work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    /*placeholder*/
+    justify-content: center;
+}
+/*placehoder grid template*/
+.grid-container {
+    background: lightyellow;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+   border: 2px solid var(--secondary-color);
+   color: var(--secondary-color);
+   font-size: 1.2rem
+}
+
+.grid-items {
+    padding: 15px 0;
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+  }
+  /* work section Styles end */
+
+  /*Contact Styles */
+
+.contact {
+    display: flex;
+    
+}
+
+.contact-items ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-items ul li {
+    display: flex;
+}
+
+
+
+  /*Contact Styles end*/

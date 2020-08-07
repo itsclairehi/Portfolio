@@ -11,14 +11,16 @@
   }
 
 body {
-    background-color: bisque;
+    background-color: #65be9c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+.content {
+    margin: 10vmin;
+}
 
   h1, h2, h3 {
-      color: var(--tertiary-color);
-      text-shadow: 5px 10px 15px rgba(0, 0, 0, 0.15);
+      color: var(--primary-color);
   }
 
   section {
@@ -26,7 +28,7 @@ body {
   }
 
 
-  /*Header Styles */
+  /* HEADER STYLES */
 
   header {
       background-color: var(--tertiary-color);
@@ -68,7 +70,7 @@ body {
     font-size: 30px;
 }
 
-/*Hero Styles */
+/* HERO STYLES */
 
 .hero {
     display: flex;
@@ -89,7 +91,7 @@ body {
     padding: 20px;
 }
 
-/*about me styles*/
+/*ABOUT ME STYLES*/
 .about {
     display: flex;
     justify-content: space-around;
@@ -108,6 +110,8 @@ body {
 
 #profile-pic {
     border-radius: 20%;
+    border: 5px solid var(--secondary-color);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
 }
 
 .card:hover {
@@ -116,7 +120,10 @@ body {
     
 }
 
-/*work section styles*/
+
+
+/*WORK SECTION*/
+
 .grid-wrapper {
     display: flex;
     justify-content:center ;
@@ -188,7 +195,7 @@ width: 75%;
 #run:hover {
     background-image: url(../images/hover1.jpg);
     transition: all 2s;
-    border: 4px solid rgba(69, 198, 221, 0.5);
+    border: 5px solid rgba(69, 198, 221, 0.5);
 }
 
 #music {
@@ -197,9 +204,19 @@ width: 75%;
 
 }
 
-#github {
-    background-image: url(../images/GitHub-Mark.png);
+.item-2 div {
+    width: 80%;
+    color: var(--secondary-color);
+    font-size: 28px;
+    background-color: rgba(255, 235, 205, 0.7);
+    border-radius: 25%;
+    margin-top: 10px;
 }
+
+#horiseon {
+    background-image: url(../images/digital-marketing-meeting\ copy.jpg);
+}
+
 
 .other-work {
     display: flex;
@@ -212,5 +229,30 @@ width: 75%;
 
 }
 
+/*CONTACT SECTION*/
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.contact ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+} 
+
+.contact ul li {
+    display: flex;
+    margin: 15px 30px 0px 30px;
+    font-weight: bold;
+}
 
 

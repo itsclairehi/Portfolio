@@ -59,6 +59,7 @@ body {
       color: var(--primary-color);
   }
 
+
   header nav ul {
       display: flex;
       width: 100%;
@@ -120,6 +121,7 @@ body {
     width: 40%;
     align-self: center;
     margin-left: 4em;
+    color: #e3f8fc;
 }
 
 #profile-pic {
@@ -288,4 +290,21 @@ width: 75%;
     
 }
 
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 575px) {
+    .grid-container {
+        display: block;
+        width: 100%;
+      }
+
+      .card {
+          display: block;
+      }
+
+      .card p {
+          width: 100%;
+      }
+      
+}
 

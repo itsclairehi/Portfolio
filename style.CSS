@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    --primary-color: #ace8f3 ;
+    --secondary-color: #02764a;
+    --tertiary-color: #39a0b2;
+    --mid-green:#4f977c;
+  }
+
+body {
+    background-color: #65be9c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    margin: 7vmin;
+}
+
+  h1, h2, h3 {
+      color: var(--primary-color);
+  }
+
+  h2 {
+      background-color: var(--mid-green);
+      border-radius: 15px;
+      width: 70%;
+      margin-bottom: 1em;
+  }
+
+  section {
+      margin-bottom: 3em;
+      margin-top: 2em;
+  }
+
+
+  /* HEADER STYLES */
+
+  header {
+      background-color: var(--mid-green);
+      display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    padding: 1em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  header h1 {
+      color: var(--primary-color);
+  }
+
+  header a {
+      text-decoration: none;
+      color: var(--primary-color);
+  }
+
+
+  header nav ul {
+      display: flex;
+      width: 100%;
+      align-items: center;
+  } 
+  
+  header nav ul li {
+    display: flex;
+    margin: 15px 30px 0px 30px;
+    font-weight: bold;
+}
+/*end header styles*/
+
+/*footer styles*/
+/*end footer styles*/
+
+.section-title {
+    font-size: 30px;
+}
+
+/* HERO STYLES */
+
+.hero {
+    display: flex;
+    background-image: url(../images/hero.jpeg);
+    background-size: cover;
+    height: 100px;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    align-self: flex-end;
+    padding: 0px 20px;
+    width:50%;
+    margin-bottom: 5px;
+    background-color: rgba(79, 151, 124, 0.7);
+}
+/*content styles*/
+
+.content h2 {
+    padding: 20px;
+}
+
+/*ABOUT ME STYLES*/
+.about {
+   width: 100%;
+}
+
+.about img {
+    max-height: 300px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+.about p {
+    width: 40%;
+    align-self: center;
+    margin-left: 4em;
+    color: #e3f8fc;
+}
+
+#profile-pic {
+    border-radius: 20%;
+    border: 5px solid var(--secondary-color);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.card:hover {
+    text-shadow:5px 10px 15px rgba(212, 122, 175, 0.25);
+    transition: 2s;
+    
+}
+
+
+
+/*WORK SECTION*/
+
+.grid-wrapper {
+    display: flex;
+    justify-content:center ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 0px;
+/* background-color: burlywood; */
+width: 75%;
+/* border: 2px solid coral; */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid rgba(0, 0, 0, 0.2); */
+    margin: 5px auto;
+    font-size: 35px;
+    /* background-color: aquamarine; */
+    width: 100%;
+    border-radius: 25%;
+    background-size: cover;
+    position: relative;
+}
+
+.grid-item a {
+    border: 5px solid var(--secondary-color);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.item-1 {
+    grid-column: 1/span 2;
+     
+}
+
+.grid-text {
+    position: absolute;
+    text-align: center;
+}
+
+.grid-text:hover {
+    font-style: italic;
+}
+
+.run-text {
+    color: #fce138;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: Helvetica, Arial, sans-serif;
+    top: 30px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+ #run {
+    background-image: url(../images/hero-bg\ copy.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 25%;
+    background-position: center;
+}
+
+#run:hover {
+    background-image: url(../images/hover1.jpg);
+    transition: all 2s;
+    border: 5px solid rgba(69, 198, 221, 0.5);
+}
+
+#music {
+    background-image: url(../images/Claire010\ copy.JPG);
+    color: var(--secondary-color);
+    background-position: center;
+
+}
+
+.item-2 div {
+    width: 80%;
+    color: var(--secondary-color);
+    font-size: 28px;
+    background-color: rgba(255, 235, 205, 0.7);
+    border-radius: 25%;
+    margin-top: 10px;
+}
+
+#horiseon {
+    background-image: url(../images/digital-marketing-meeting\ copy.jpg);
+}
+
+#horiseon:hover, #music:hover {
+    border: 10px solid #02764a;
+    transition: 1s;
+}
+
+
+.other-work {
+    display: flex;
+    justify-content: center;
+    height: 6em;
+    width: 100%;
+    border-radius: 25%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*CONTACT SECTION*/
+
+.contact {
+    display: flex;
+    padding: 1em;
+    background-color: var(--mid-green);
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.contact h2 {
+    width: fit-content;
+    margin-bottom: 0px;
+}
+.contact a {
+    text-decoration: none;
+    color: #e3f8fc;
+}
+
+.contact ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+} 
+
+.contact ul li {
+    display: flex;
+    margin: 15px 30px 0px 30px;
+    font-weight: bold;
+}
+
+.contact ul li:hover {
+    font-style: oblique;
+    
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 575px) {
+    
+    div.content {
+        margin: 0;
+    }
+
+    header {
+        display: block;
+        padding: 5px;
+    }
+
+    header h1 {
+        color: #e3f8fc;
+    }
+
+    .grid-container {
+        display: block;
+        width: 100%;
+      }
+
+      .grid-item {
+          border-radius: 0px;
+      }
+
+      #run, #horiseon, #music {
+          border-radius: 2px;
+      }
+
+      .card {
+          display: block;
+      }
+
+      .card p {
+          width: 100%;
+      }
+
+      .card {
+          text-align: center;
+      }
+
+      .contact {
+          padding: 0;
+          width: 100%;
+      }
+      
+      .contact ul li, header nav ul li {
+        display: flex;
+        margin: 10px;
+        
+    }
+
+    div.contact-items {
+        align-self: center;
+        width: 50%;
+    }
+      
+    .about p {
+        margin-left: auto;
+    }
+
+    section {
+        margin-bottom: auto;
+    }
+
+    .section-title {
+        padding: 0;
+    }
+
+    h2.section-title {
+        margin: 0;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    .about h2 {
+        margin-bottom: 10px;
+    }
+}
+
+

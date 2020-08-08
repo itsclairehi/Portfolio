@@ -312,6 +312,10 @@ body {
           border-radius: 2px;
       }
 
+      #run {
+          height:9em
+          }
+
       .card {
           display: block;
       }

@@ -7,4 +7,5 @@ Constantly growing and building!
 
 ## Website 
 [Horiseon Reafactoring](https://itsclairehi.github.io/Portfolio/)
-![image](assets/images/read-me pic.png) 
+
+![image](assets/images/read-me-pic.png) 

@@ -6,6 +6,6 @@ Constantly growing and building!
 * CSS
 
 ## Website 
-[Horiseon Reafactoring](https://itsclairehi.github.io/Portfolio/)
+Link: [Claire's Portfolio](https://itsclairehi.github.io/Portfolio/)
 
 ![image](assets/images/read-me-pic.png) 

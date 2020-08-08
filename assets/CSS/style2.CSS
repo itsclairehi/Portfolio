@@ -17,7 +17,7 @@ body {
 }
 
 .content {
-    margin: 7vmin;
+    width: 100%;
 }
 
   h1, h2, h3 {
@@ -73,8 +73,6 @@ body {
 }
 /*end header styles*/
 
-/*footer styles*/
-/*end footer styles*/
 
 .section-title {
     font-size: 30px;
@@ -138,8 +136,6 @@ body {
     
 }
 
-
-
 /*WORK SECTION*/
 
 .grid-wrapper {
@@ -153,19 +149,15 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 8px;
     grid-row-gap: 0px;
-/* background-color: burlywood; */
-width: 75%;
-/* border: 2px solid coral; */
+    width: 75%;
 }
 
 .grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid rgba(0, 0, 0, 0.2); */
     margin: 5px auto;
     font-size: 35px;
-    /* background-color: aquamarine; */
     width: 100%;
     border-radius: 25%;
     background-size: cover;
@@ -242,7 +234,6 @@ width: 75%;
     transition: 1s;
 }
 
-
 .other-work {
     display: flex;
     justify-content: center;
@@ -261,7 +252,7 @@ width: 75%;
     padding: 1em;
     background-color: var(--mid-green);
     border-radius: 15px;
-    width: fit-content;
+    justify-content: center;
 }
 
 .contact h2 {
@@ -327,6 +318,7 @@ width: 75%;
 
       .card p {
           width: 100%;
+          padding: 1em;
       }
 
       .card {

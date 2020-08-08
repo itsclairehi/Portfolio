@@ -184,6 +184,7 @@ width: 75%;
 
 .grid-text {
     position: absolute;
+    text-align: center;
 }
 
 .grid-text:hover {
@@ -293,9 +294,31 @@ width: 75%;
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 575px) {
+    
+    div.content {
+        margin: 0;
+    }
+
+    header {
+        display: block;
+        padding: 5px;
+    }
+
+    header h1 {
+        color: #e3f8fc;
+    }
+
     .grid-container {
         display: block;
         width: 100%;
+      }
+
+      .grid-item {
+          border-radius: 0px;
+      }
+
+      #run, #horiseon, #music {
+          border-radius: 2px;
       }
 
       .card {
@@ -305,6 +328,48 @@ width: 75%;
       .card p {
           width: 100%;
       }
+
+      .card {
+          text-align: center;
+      }
+
+      .contact {
+          padding: 0;
+          width: 100%;
+      }
       
+      .contact ul li, header nav ul li {
+        display: flex;
+        margin: 10px;
+        
+    }
+
+    div.contact-items {
+        align-self: center;
+        width: 50%;
+    }
+      
+    .about p {
+        margin-left: auto;
+    }
+
+    section {
+        margin-bottom: auto;
+    }
+
+    .section-title {
+        padding: 0;
+    }
+
+    h2.section-title {
+        margin: 0;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    .about h2 {
+        margin-bottom: 10px;
+    }
 }
 

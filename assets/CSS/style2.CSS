@@ -6,13 +6,13 @@
 
 :root {
     --primary-color: #ace8f3 ;
-    --secondary-color: #02764a;
+    --secondary-color: #3e6858;
     --tertiary-color: #39a0b2;
-    --mid-green:#4f977c;
+    --mid-green:#6b9787;
   }
 
 body {
-    background-color: #65be9c;
+    background-color: #3e6858;;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -230,7 +230,7 @@ body {
 }
 
 #horiseon:hover, #music:hover {
-    border: 10px solid #02764a;
+    border: 10px solid var(--mid-green);
     transition: 1s;
 }
 
